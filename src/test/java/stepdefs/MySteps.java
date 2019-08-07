@@ -28,7 +28,7 @@ public class MySteps {
         chromeOptions.addArguments("disable-gpu");
         chromeOptions.addArguments("window-size=1200x600");
 		driver = new ChromeDriver(chromeOptions);
-		driver.get("http://192.168.229.138:8787/wru_gradle/index.jsp");
+		driver.get("http://http://192.168.229.140:8787/user-register/index.jsp");
 		System.out.println(driver.getTitle());
 		System.out.println("driver=" + driver);
 	}
